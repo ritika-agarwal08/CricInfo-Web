@@ -1,11 +1,4 @@
-/* ===================================================================
- * fonts.scss
- *
- * ------------------------------------------------------------------- */
 
-/*
- * libre baskerville
-================================================================================ */
 @font-face {
    font-family: "librebaskerville-regular";
    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
@@ -27,9 +20,6 @@
    font-weight: normal;
 }
 
-/*
- * metropolis
-================================================================================ */
 @font-face {
    font-family: "metropolis-black";
    src: url("../fonts/metropolis/metropolis-black-webfont.woff2") format("woff2"), url("../fonts/metropolis/metropolis-black-webfont.woff") format("woff");
@@ -155,5 +145,3 @@
    font-style: normal;
    font-weight: normal;
 }
-
-/*# sourceMappingURL=fonts.css.map */

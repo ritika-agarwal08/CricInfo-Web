@@ -1,46 +1,7 @@
-/* =================================================================== 
- *
- *  Philosophy v1.0 Base Stylesheet
- *  12-30-2017
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # imports
- *  # normalize
- *  # basic/base setup styles
- *    ## Media
- *    ## Typography resets
- *    ## links
- *    ## inputs
- *  # grid
- *    ## medium size devices
- *    ## tablets
- *    ## mobile devices
- *    ## small mobile devices
- *  # block grids
- *    ## medium size devices
- *    ## tablets
- *    ## mobile devices
- *    ## small mobile devices
- *  # MISC
- *
- * =================================================================== */
 
-
-/* ===================================================================
- *  # imports 
- *
- * ------------------------------------------------------------------- */
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("fonts.css");
 
-
-/* ===================================================================
- *  # normalize
- *  normalize.css v5.0.0 | MIT License | 
- *  github.com/necolas/normalize.css
- *
- * ------------------------------------------------------------------- */
 html {
    font-family: sans-serif;
    line-height: 1.15;
@@ -280,12 +241,6 @@ template {
 [hidden] {
    display: none;
 }
-
-
-/* ===================================================================
-*  # basic/base setup styles
-*
-* ------------------------------------------------------------------- */
 html {
    font-size: 62.5%;
    box-sizing: border-box;
@@ -312,19 +267,11 @@ button {
    -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased;
 }
-
-/* ------------------------------------------------------------------- 
- * ## Media
- * ------------------------------------------------------------------- */
 img,
 video {
    max-width: 100%;
    height: auto;
 }
-
-/* ------------------------------------------------------------------- 
- * ## Typography resets 
- * ------------------------------------------------------------------- */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
    margin: 0;
    padding: 0;
@@ -364,10 +311,6 @@ ul {
 li {
    display: block;
 }
-
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
 a {
    text-decoration: none;
    line-height: inherit;
@@ -376,10 +319,6 @@ a {
 a img {
    border: none;
 }
-
-/* ------------------------------------------------------------------- 
- *  ## inputs
- * ------------------------------------------------------------------- */
 fieldset {
    margin: 0;
    padding: 0;
@@ -400,11 +339,6 @@ textarea {
    appearance: none;
 }
 
-
-/* ===================================================================
- * # grid
- *
- * ------------------------------------------------------------------- */
 .row {
    width: 94%;
    max-width: 1200px;
@@ -423,9 +357,6 @@ textarea {
    margin-left: -20px;
    margin-right: -20px;
 }
-
-/* column blocks
- * -------------------------------------- */
 [class*="col-"] {
    float: left;
    padding: 0 20px;
@@ -434,9 +365,6 @@ textarea {
 [class*="col-"] + [class*="col-"].end {
    float: right;
 }
-
-/* column width classes 
- * -------------------------------------- */
 .col-one {
    width: 8.33333%;
 }
@@ -493,10 +421,6 @@ textarea {
    width: 100%;
 }
 
-
-/* ------------------------------------------------------------------- 
- * ## medium size devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
    .row .row {
       margin-left: -15px;
@@ -563,10 +487,6 @@ textarea {
       width: 100%;
    }
 }
-
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
    .row {
       width: 90%;
@@ -600,10 +520,6 @@ textarea {
       display: none;
    }
 }
-
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
    .row {
       width: auto;
@@ -651,12 +567,6 @@ textarea {
    }
 }
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices
- * ------------------------------------------------------------------- */
-
-/* stack columns on small mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 400px) {
    .row .row {
       margin-left: 0;
@@ -676,15 +586,6 @@ textarea {
       float: none;
    }
 }
-
-
-/* ===================================================================
- * # block grids
- *
- * ------------------------------------------------------------------- */
-
-/* Equally-sized columns define at row level
- * ------------------------------------------------------------------- */
 [class*="block-"]:after {
    content: "";
    display: table;
@@ -711,10 +612,6 @@ textarea {
    width: 50%;
 }
 
-/**
- * Clearing for block grid columns. Allow columns with 
- * different heights to align properly.
- */
 .block-1-6 .col-block:nth-child(6n + 1),
 .block-1-5 .col-block:nth-child(5n + 1),
 .block-1-4 .col-block:nth-child(4n + 1),
@@ -722,10 +619,6 @@ textarea {
 .block-1-2 .col-block:nth-child(2n + 1) {
    clear: both;
 }
-
-/* ------------------------------------------------------------------- 
- * ## medium size devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
    .block-m-1-6 .col-block {
       width: 16.66667%;
@@ -764,10 +657,6 @@ textarea {
       clear: both;
    }
 }
-
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
    .block-tab-1-6 .col-block {
       width: 16.66667%;
@@ -806,10 +695,6 @@ textarea {
       clear: both;
    }
 }
-
-/* ------------------------------------------------------------------- 
- * ## mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
    .block-mob-1-6 .col-block {
       width: 16.66667%;
@@ -848,13 +733,6 @@ textarea {
       clear: both;
    }
 }
-
-/* ------------------------------------------------------------------- 
- * ## small mobile devices
- * ------------------------------------------------------------------- */
-
-/* stack columns on small mobile devices
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 400px) {
    .stack .col-block {
       width: 100% !important;
@@ -865,19 +743,12 @@ textarea {
    }
 }
 
-
-/* ===================================================================
- * # MISC
- *
- * ------------------------------------------------------------------- */
 .group:after {
    content: "";
    display: table;
    clear: both;
 }
 
-/* Misc Helper Styles
- * -------------------------------------- */
 .is-hidden {
    display: none;
 }
@@ -940,5 +811,3 @@ textarea {
    margin-right: auto;
    text-align: center;
 }
-
-/*# sourceMappingURL=base.css.map */

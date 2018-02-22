@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="CricInfo_Web.WebForm1" %>
 
-<!DOCTYPE html>
 <html>
 <head runat="server">
     <title>CRICINFO</title>
@@ -29,17 +28,17 @@
                         <li class="has-children">
                             <a href="#0" title="">TEAMS</a>
                             <ul class="sub-menu">
-                                <li><a href="category.html">India</a></li>
-                                <li><a href="category.html">Australia</a></li>
-                                <li><a href="category.html">South Africa</a></li>
-                                <li><a href="category.html">Sri Lanka</a></li>
-                                <li><a href="category.html">Bangladesh</a></li>
-                                <li><a href="category.html">Pakistan</a></li>
-                                <li><a href="category.html">Ireland</a></li>
-                                <li><a href="category.html">England</a></li>
-                                <li><a href="category.html">West Indies</a></li>
-                                <li><a href="category.html">Zimbawbe</a></li>
-                                <li><a href="category.html">Afghanistan</a></li>
+                                <li><a href="india.html">India</a></li>
+                                    <li><a href="australia.html">Australia</a></li>
+                                    <li><a href="africa.html">South Africa</a></li>
+                                    <li><a href="srilanka.html">Sri Lanka</a></li>
+                                    <li><a href="bangladesh.html">Bangladesh</a></li>
+                                    <li><a href="pakistan.html">Pakistan</a></li>
+                                    <li><a href="ireland.html">Ireland</a></li>
+                                    <li><a href="england.html">England</a></li>
+                                    <li><a href="westindies.html">West Indies</a></li>
+                                    <li><a href="zimbawbe.html">Zimbawbe</a></li>
+                                    <li><a href="afghanistan.html">Afghanistan</a></li>
                             </ul>
                         </li>
                         <li><a href="html/upcoming-match.html" title="">Upcoming Matches</a></li>
