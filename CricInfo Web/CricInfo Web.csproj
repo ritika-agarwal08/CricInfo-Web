@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HtmlPage1.html" />
+    <Content Include="html\upcoming-match.html" />
     <Content Include="images\605654-dhoni-retuers.jpg" />
     <Content Include="images\download.jpg" />
     <Content Include="images\images.jpg" />
@@ -104,7 +104,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="pastmatch.html" />
+    <Content Include="html\pastmatch.html" />
     <Content Include="webform.css" />
     <Content Include="WebForm1.aspx" />
     <None Include="Web.Debug.config">
@@ -128,6 +128,9 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
