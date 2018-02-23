@@ -99,8 +99,8 @@
     <Content Include="css\main.css" />
     <Content Include="css\vendor.css" />
     <Content Include="css\webform.css" />
-    <Content Include="html\india.html" />
     <Content Include="html\pastmatches.aspx" />
+    <Content Include="html\ranking.aspx" />
     <Content Include="html\upcoming-match.aspx" />
     <Content Include="images\605654-dhoni-retuers.jpg" />
     <Content Include="images\download.jpg" />
@@ -137,6 +137,13 @@
     </Compile>
     <Compile Include="html\pastmatches.aspx.designer.cs">
       <DependentUpon>pastmatches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\ranking.aspx.cs">
+      <DependentUpon>ranking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\ranking.aspx.designer.cs">
+      <DependentUpon>ranking.aspx</DependentUpon>
     </Compile>
     <Compile Include="html\upcoming-match.aspx.cs">
       <DependentUpon>upcoming-match.aspx</DependentUpon>

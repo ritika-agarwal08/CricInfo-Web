@@ -118,6 +118,48 @@
                         </li>
                         <li><a href="upcoming-match.aspx" title="">Upcoming Matches</a></li>
                         <li><a href="pastmatches.aspx" title="">Past Matches</a></li>
+                        <li class="has-children">
+                            <a href="#0" title="">Stats</a>
+                            <ul class="sub-menu">
+                                <li><a href="ranking.aspx">Rankings</a></li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Top Score - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/576/rohit-sharma">264<br />Rohit Sharma | India</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Best Bowling - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/108/chaminda-vaas">8/19<br />Chaminda Vaas | Sri Lanka</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Fastest 100 - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/370/ab-de-villiers">31<br />AB de Villiers | SA</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Most Wickets - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/110/muttiah-muralitharan">534<br />Muttiah Muralitharan | Sri Lanka</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Most Runs - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/25/sachin-tendulkar">18426<br />Sachin Tendulkar | India</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <a href="#0" title="">Most Matches - ODI</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="http://www.cricbuzz.com/profiles/25/sachin-tendulkar">463<br />Sachin tendulkar | India</a></li>
+                                    </ul>
+                                </li>
+                           </ul>
+                       </li>
                     </ul>
                 </nav>
             </div>
